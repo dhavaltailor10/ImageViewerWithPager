@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity"
+    style="@style/activities_relative_layouts">
+
+    <fragment
+        android:id="@+id/container"
+        android:name="com.maison.test.image_viewer.fragment.MainActivityFragment"
+        style="@style/fragment"
+        tools:layout="@layout/fragment_activity_main" />
+
+</RelativeLayout>
